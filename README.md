@@ -1,4 +1,4 @@
- <h1>Sudoku overview:   </h1>
+
  <h2>features </h2>  
 — 9x9 Sudoku Grid:  An interactive grid where users can enter numbers to complete a Sudoku puzzle. <br>
 — Validation:  Confirms that all rows, columns, and 3x3 subgrids contain distinct values. <br>
@@ -8,4 +8,6 @@
 — Reset Board:  Empties the board, giving users a new start. <br>
 — Show/Hide Solution:  Reveals the completed puzzle or resets the board when the "Solve" button is clicked. <br>
 
-checkout the app here =     https://sudoku-9.netlify.app/
+
+
+checkout the app      https://sudoku-9.netlify.app/
