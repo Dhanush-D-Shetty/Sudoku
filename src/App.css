@@ -1,0 +1,103 @@
+/* src/SudokuBoard.css */
+
+.sudoku-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+  font-family: Arial, sans-serif;
+  position: relative;
+;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+.error{
+  height: 20px;
+}
+
+.error-message {
+  color: red;
+  margin-bottom: 10px;
+}
+
+.sudoku-board {
+  border-collapse: collapse;
+  margin: 20px 0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  position: relative;
+  z-index: 999999;
+}
+
+.sudoku-cell {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #ccc;
+  text-align: center;
+  vertical-align: middle;
+  background-color: #f9f9f9;
+  transition: background-color 0.3s ease;
+}
+
+.sudoku-cell.highlight {
+  background-color: #f8d7da;
+}
+
+.sudoku-input {
+  width: 100%;
+  height: 100%;
+  border: none;
+  text-align: center;
+  font-size: 1.2rem;
+  background-color: transparent;
+}
+
+.sudoku-input.initial {
+  background-color: #ddd;
+  color: #000;
+  font-weight: bold;
+}
+
+.sudoku-input:disabled {
+  background-color: #ddd;
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+.prev-next-btn{
+  position: absolute;
+  top: 50%;
+}
+.prev-next-btn> .prev{
+ margin-right: 500px;
+}
+
+.control-button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 2px  black;
+}
+
+.control-button:hover {
+  background-color: #0056b3;
+  transform: scale(1.1);
+  /* box-shadow: 0 0 10px 0 black; */
+}
+
+.control-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
