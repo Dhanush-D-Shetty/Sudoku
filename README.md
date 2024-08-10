@@ -8,6 +8,6 @@
 — Reset Board:  Empties the board, giving users a new start. <br>
 — Show/Hide Solution:  Reveals the completed puzzle or resets the board when the "Solve" button is clicked. <br>
 
-
+<br><br>
 
 checkout the app      https://sudoku-9.netlify.app/
